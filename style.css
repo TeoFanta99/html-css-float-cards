@@ -1,6 +1,5 @@
 /* stili generali della pagina */
 * {
-    font-family: 'Comic Neue', cursive;
     font-family: 'Fredoka', sans-serif;
     margin: 0;
     padding: 0;
@@ -38,7 +37,6 @@ main {
     width: calc((100% / 3) - 26px);
     float: left;
     margin: 0 13px;
-    display: inline-block;
     margin-top: 50px;
 }
 
