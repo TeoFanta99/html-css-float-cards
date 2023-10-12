@@ -38,12 +38,11 @@ main {
 
 .card {
     background-color: black;
-    height: 100px;
-    width: 30%;
+    width: calc((100% / 3) - 10px);
     margin-top: 50px;
     border: 1px solid black;
     float: left;
-    margin-right: 35px
+    margin: 0 5px;
 }
 
 .picture {
@@ -83,11 +82,6 @@ main {
 /* effetti speciali */
 .card:active {
     border: 1px solid yellow;
-}
-
-
-.picture:active {
-    border: 4px solid white;
 }
 
 
